@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lobera Glamping – Desconecta. Reconéctate.</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=Barlow+Condensed:wght@300;400;600;700&family=Barlow:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- NAV -->
+<nav id="navbar">
+  <a href="#" class="nav-logo">
+    <img src="./img/logo.png" alt="" class="img-logo" srcset="">
+    <div class="nav-logo-text">
+      <span>Lobera</span>
+      <span>Glamping</span>
+    </div>
+  </a>
+  <ul class="nav-links">
+    <li><a href="#services">Servicios</a></li>
+    <li><a href="#glamping-detail">Glamping</a></li>
+    <li><a href="#finca-detail">Finca</a></li>
+    <li><a href="#location">Ubicación</a></li>
+    <li><a href="#gallery">Galería</a></li>
+  </ul>
+  <a href="https://wa.me/523541197968?text=Hola,%20me%20interesa%20reservar%20en%20Lobera%20Glamping" class="nav-cta" target="_blank">
+    📅 Reserva Ahora
+  </a>
+</nav>
+
+<!-- HERO -->
+<section id="hero">
+  <video class="hero-video" autoplay muted loop playsinline>
+    <source src="./video.mp4" type="video/mp4">
+  </video>
+  <div class="hero-overlay"></div>
+
+  <div class="hero-content">
+    <p class="hero-eyebrow">Naturaleza · Confort · Aventura</p>
+    <h1 class="hero-title">
+      <span class="line1">Desconecta.</span>
+      <span class="line2">Reconéctate.</span>
+    </h1>
+    <p class="hero-desc">Vive la experiencia de dormir bajo las estrellas en cabañas únicas, rodeado de naturaleza y con todas las comodidades que mereces.</p>
+    <div class="hero-badges">
+      <div class="badge"><span class="badge-icon">🏕️</span> Alojamientos únicos</div>
+      <div class="badge"><span class="badge-icon">🔥</span> Fogatas nocturnas</div>
+      <div class="badge"><span class="badge-icon">🌲</span> Turismo sostenible</div>
+    </div>
+    <div class="hero-actions">
+      <a href="#services" class="btn-primary">Descubre tu escape →</a>
+      <a href="#gallery" class="btn-ghost">
+        <span class="play-icon">▶</span>
+        Ver experiencias
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- INTRO -->
+<section id="intro">
+  <div class="intro-text reveal">
+    <p class="section-label">Sobre Lobera</p>
+    <h2 class="section-title">Un refugio en<br>medio del bosque</h2>
+    <p>A solo 10 minutos de Pátzcuaro y Santa Clara del Cobre, Michoacán, Lobera es el lugar donde la naturaleza y el confort se encuentran. Dos experiencias únicas para escapar de la rutina: nuestro Glamping en cabañas tipo A-frame y la majestuosa Finca Lobera para grupos.</p>
+  </div>
+  <div class="intro-stats reveal">
+    <div class="stat">
+      <span class="stat-num">2</span>
+      <span class="stat-label">Cabañas A-Frame</span>
+    </div>
+    <div class="stat">
+      <span class="stat-num">11</span>
+      <span class="stat-label">Personas en Finca</span>
+    </div>
+    <div class="stat">
+      <span class="stat-num">10 </span>
+      <span class="stat-label">Minutos de Pátzcuaro</span>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section id="services">
+  <div class="services-header reveal">
+    <div>
+      <p class="section-label">Nuestros espacios</p>
+      <h2 class="section-title">Elige tu<br>experiencia</h2>
+    </div>
+    <p>Dos propuestas distintas, una misma promesa: vivir la naturaleza con todo el confort que mereces.</p>
+  </div>
+
+  <div class="services-grid">
+    <!-- Card 1: Glamping -->
+    <div class="service-card">
+      <div class="service-card-bg" style="background-image: url('./img/cabaña.png')"></div>
+      <div class="service-card-overlay"></div>
+      <div class="service-card-content">
+        <span class="service-tag">🏕️ Glamping</span>
+        <h3 class="service-name">Cabañas<br>A-Frame</h3>
+        <p class="service-sub">A1 & A2 · Para 2 personas</p>
+        <p class="service-desc">Cabañas de diseño triangular inmersas en la naturaleza, equipadas con todo lo que necesitas para una estadía perfecta.</p>
+        <div class="service-price">
+          <span class="price-from">Desde</span>
+          <span class="price-amount">$850</span>
+          <span class="price-period">/ noche</span>
+        </div>
+        <div class="service-details">
+          <div class="amenities-grid">
+            <div class="amenity">Cama matrimonial</div>
+            <div class="amenity">Mini frigo bar</div>
+            <div class="amenity">Calentador</div>
+            <div class="amenity">Asador exterior</div>
+            <div class="amenity">Fogata privada</div>
+            <div class="amenity">Juegos de mesa</div>
+            <div class="amenity">Cocina equipada</div>
+            <div class="amenity">Baño con agua caliente</div>
+          </div>
+        </div>
+        <a href="#glamping-detail" class="service-link">Ver detalles →</a>
+      </div>
+    </div>
+
+    <!-- Card 2: Finca -->
+    <div class="service-card">
+      <div class="service-card-bg" style="background-image: url('./img/finca.png')"></div>
+      <div class="service-card-overlay"></div>
+      <div class="service-card-content">
+        <span class="service-tag">🏡 Finca</span>
+        <h3 class="service-name">Finca<br>Lobera</h3>
+        <p class="service-sub">Hasta 11 personas · 2 plantas</p>
+        <p class="service-desc">Una finca completa con jardín, chimenea, terrazas para eventos y horno de barro. Ideal para reuniones familiares y celebraciones especiales.</p>
+        <div class="service-price">
+          <span class="price-amount">$3,500</span>
+          <span class="price-period">/ noche</span>
+        </div>
+        <div class="service-details">
+          <div class="amenities-grid">
+            <div class="amenity">4 recámaras</div>
+            <div class="amenity">Chimenea</div>
+            <div class="amenity">Jardín + brincolín</div>
+            <div class="amenity">Horno de barro</div>
+            <div class="amenity">Terrazas para eventos</div> 
+            <div class="amenity">Cocina equipada</div>
+            <div class="amenity">Estacionamiento</div>
+            <div class="amenity">Área de juegos</div>
+          </div>
+        </div>
+        <a href="#finca-detail" class="service-link">Ver detalles →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- GLAMPING DETAIL -->
+<section id="glamping-detail">
+  <div class="detail-visual">
+    <img class="detail-img" src="./img/a-frame.png" alt="Cabaña A-Frame Lobera Glamping">
+    <div class="detail-img-overlay"></div>
+  </div>
+  <div class="detail-content reveal">
+    <p class="section-label">Lobera Glamping</p>
+    <h2 class="section-title">Cabañas A1 & A2</h2>
+    <p class="detail-intro">Diseñadas para parejas o amigos que buscan una experiencia única rodeada de naturaleza. Cada cabaña ofrece privacidad total con área de fogata propia y todas las comodidades del hogar.</p>
+
+    <div class="detail-grid">
+      <div class="detail-item">
+        <span class="detail-icon">🛏️</span>
+        <div class="detail-text">
+          <strong>Cama matrimonial</strong>
+          Para 2 personas, ropa de cama incluida
+        </div>
+      </div>
+      <div class="detail-item">
+        <span class="detail-icon">🧊</span>
+        <div class="detail-text">
+          <strong>Mini frigo bar</strong>
+          Para mantener alimentos frescos
+        </div>
+      </div>
+      <div class="detail-item">
+        <span class="detail-icon">🔥</span>
+        <div class="detail-text">
+          <strong>Fogata privada</strong>
+          Con leña incluida para noches mágicas
+        </div>
+      </div>
+      <div class="detail-item">
+        <span class="detail-icon">🍖</span>
+        <div class="detail-text">
+          <strong>Asador con utensilios</strong>
+          Parrillada al aire libre
+        </div>
+      </div>
+      <div class="detail-item">
+        <span class="detail-icon">🎮</span>
+        <div class="detail-text">
+          <strong>Juegos de mesa</strong>
+          Baraja, Glup, UNO
+        </div>
+      </div>
+      <div class="detail-item">
+        <span class="detail-icon">🚿</span>
+        <div class="detail-text">
+          <strong>Baño con agua caliente</strong>
+          Uso comunitario
+        </div>
+      </div>
+      <div class="detail-item">
+        <span class="detail-icon">🪑</span>
+        <div class="detail-text">
+          <strong>2 sillas camping</strong>
+          + 2 toallas de cortesía
+        </div>
+      </div>
+      <div class="detail-item">
+        <span class="detail-icon">🍳</span>
+        <div class="detail-text">
+          <strong>Cocina equipada</strong>
+          Con parrilla eléctrica
+        </div>
+      </div>
+    </div>
+
+    <div class="pricing-box">
+      <h4>Tarifas por noche</h4>
+      <div class="pricing-rows">
+        <div class="pricing-row">
+          <span>🌙 Viernes & Sábado</span>
+          <strong>$1,100</strong>
+        </div>
+        <div class="pricing-row">
+          <span>☀️ Domingo a Jueves</span>
+          <strong>$850</strong>
+        </div>
+      </div>
+    </div>
+
+    <div class="booking-buttons">
+      <a href="https://www.airbnb.mx/rooms/1157489693383110201" class="btn-airbnb" target="_blank">
+        Reservar Cabaña A1 →
+      </a>
+      <a href="https://www.airbnb.mx/rooms/1160994663735102504" class="btn-airbnb" target="_blank">
+        Reservar Cabaña A2 →
+      </a>
+      <a href="https://wa.me/523541197968?text=Hola,%20me%20interesa%20reservar%20la%20cabaña%20en%20Lobera%20Glamping" class="btn-whatsapp-outline" target="_blank">
+        WhatsApp →
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- FINCA DETAIL -->
+<section id="finca-detail">
+  <div class="detail-content reveal">
+    <p class="section-label">Finca Lobera</p>
+    <h2 class="section-title">Tu espacio ideal<br>para celebrar</h2>
+    <p style="color:var(--cream);margin-bottom:2rem;">Perfecta para reuniones familiares, escapadas con amigos o eventos especiales rodeados de naturaleza. Capacidad para hasta 11 personas cómodamente.</p>
+
+    <div class="finca-floors">
+      <div class="floor-block">
+        <div class="floor-title">🌿 Jardín & Exterior</div>
+        <div class="floor-items">
+          <div class="floor-item"><span>—</span> Entrada amplia con estacionamiento</div>
+          <div class="floor-item"><span>—</span> Zona de juegos + brincolín</div>
+          <div class="floor-item"><span>—</span> Terraza exterior con horno de barro</div>
+          <div class="floor-item"><span>—</span> Área de cocina exterior equipada</div>
+        </div>
+      </div>
+      <div class="floor-block">
+        <div class="floor-title">🏡 Planta Baja</div>
+        <div class="floor-items">
+          <div class="floor-item"><span>—</span> Sala, comedor y cocina equipada</div>
+          <div class="floor-item"><span>—</span> 1 recámara matrimonial con baño</div>
+          <div class="floor-item"><span>—</span> Chimenea 🔥</div>
+          <div class="floor-item"><span>—</span> Terraza techada para eventos + bocina</div>
+        </div>
+      </div>
+      <div class="floor-block">
+        <div class="floor-title">🛌 Planta Alta</div>
+        <div class="floor-items">
+          <div class="floor-item"><span>—</span> Recámara 1: 2 camas matrimoniales</div>
+          <div class="floor-item"><span>—</span> Recámara 2: 1 cama matrimonial</div>
+          <div class="floor-item"><span>—</span> Recámara 3: 1 matrimonial + 1 individual (baño completo)</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="pricing-box">
+      <h4>Tarifa</h4>
+      <div class="pricing-rows">
+        <div class="pricing-row">
+          <span>🏡 Por noche (hasta 11 personas)</span>
+          <strong>$3,500</strong>
+        </div>
+        <div class="pricing-row">
+          <span>🛏️ Catre extra (c/u)</span>
+          <strong>$200</strong>
+        </div>
+      </div>
+    </div>
+
+    <div class="booking-buttons">
+      <a href="https://www.airbnb.mx/rooms/861609853933510361" class="btn-airbnb" target="_blank">
+        Reservar Finca Lobera →
+      </a>
+      <a href="https://wa.me/523541197968?text=Hola,%20me%20interesa%20reservar%20la%20Finca%20Lobera" class="btn-whatsapp-outline" target="_blank">
+        WhatsApp →
+      </a>
+    </div>
+  </div>
+
+  <div class="detail-visual">
+    <div class="finca-img-stack">
+      <div class="finca-img-item">
+        <img src="./img/finca-entrada.png" alt="Finca Entrada">
+        <div class="img-label">Entrada Finca</div>
+      </div>
+      <div class="finca-img-item">
+        <img src="./img/finca-interior.png" alt="Finca Interior">
+        <div class="img-label">Finca Interior</div>
+      </div>
+    </div>
+    <div class="detail-img-overlay" style="background: linear-gradient(to left, transparent 60%, var(--dark) 100%);"></div>
+  </div>
+</section>
+
+<!-- GALLERY -->
+<section id="gallery">
+  <div class="gallery-header reveal">
+    <div>
+      <p class="section-label">La experiencia</p>
+      <h2 class="section-title">Galería Lobera</h2>
+    </div>
+    <span class="gallery-scroll-hint">Desliza</span>
+  </div>
+  <div class="gallery-wrapper">
+    <button class="gallery-btn gallery-btn--prev" aria-label="Anterior">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg>
+    </button>
+    <div class="gallery-strip">
+      <div class="gallery-item" data-index="0">
+        <img src="./img/gallery/1.png" alt="Noche estrellada">
+        <div class="gallery-item-overlay"></div>
+      </div>
+      <div class="gallery-item" data-index="1">
+        <img src="./img/gallery/2.png" alt="Fogata">
+        <div class="gallery-item-overlay"></div>
+      </div>
+      <div class="gallery-item" data-index="2">
+        <img src="./img/gallery/3.png" alt="Cabaña glamping">
+        <div class="gallery-item-overlay"></div>
+      </div>
+      <div class="gallery-item" data-index="3">
+        <img src="./img/gallery/4.png" alt="Bosque naturaleza">
+        <div class="gallery-item-overlay"></div>
+      </div>
+      <div class="gallery-item" data-index="4">
+        <img src="./img/gallery/5.png" alt="Amanecer">
+        <div class="gallery-item-overlay"></div>
+      </div>
+      <div class="gallery-item" data-index="5">
+        <img src="./img/gallery/6.png" alt="Amanecer">
+        <div class="gallery-item-overlay"></div>
+      </div>
+    </div>
+    <button class="gallery-btn gallery-btn--next" aria-label="Siguiente">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+    </button>
+  </div>
+  <div class="gallery-dots" role="tablist" aria-label="Navegación de galería">
+    <button class="gallery-dot active" role="tab" aria-selected="true" aria-label="Imagen 1" data-go="0"></button>
+    <button class="gallery-dot" role="tab" aria-selected="false" aria-label="Imagen 2" data-go="1"></button>
+    <button class="gallery-dot" role="tab" aria-selected="false" aria-label="Imagen 3" data-go="2"></button>
+    <button class="gallery-dot" role="tab" aria-selected="false" aria-label="Imagen 4" data-go="3"></button>
+    <button class="gallery-dot" role="tab" aria-selected="false" aria-label="Imagen 5" data-go="4"></button>
+    <button class="gallery-dot" role="tab" aria-selected="false" aria-label="Imagen 6" data-go="5"></button>
+  </div>
+</section>
+
+<!-- LOCATION -->
+<section id="location">
+  <div class="location-text reveal">
+    <p class="section-label">¿Cómo llegar?</p>
+    <h2 class="section-title">Pátzcuaro,<br>Michoacán</h2>
+    <p>Enclavados en un entorno seguro y privado, estamos a solo minutos de los destinos más bellos de Michoacán. La naturaleza te espera a la vuelta de la esquina.</p>
+    <div class="location-points">
+      <div class="location-point">
+        <span class="location-point-icon">📍</span>
+        <div class="location-point-text">
+          Carretera Pátzcuaro - Opopeo s/n, 61820 Pátzcuaro, Mich.
+          <small>Entorno seguro y privado en plena naturaleza</small>
+        </div>
+      </div>
+      <div class="location-point">
+        <span class="location-point-icon">🕐</span>
+        <div class="location-point-text">
+          10 min de Pátzcuaro
+          <small>Y 10 min de Santa Clara del Cobre</small>
+        </div>
+      </div>
+      <div class="location-point">
+        <span class="location-point-icon">🚗</span>
+        <div class="location-point-text">
+          Fácil acceso en auto
+          <small>Estacionamiento disponible en Finca Lobera</small>
+        </div>
+      </div>
+    </div>
+    <a href="https://www.google.com/maps/place/Lobera+Glamping+P%C3%A1tzcuaro/@19.431756,-101.6038499,17z/data=!3m1!4b1!4m6!3m5!1s0x842d91dd0433f57f:0x11480d584a98360b!8m2!3d19.431756!4d-101.6038499!16s%2Fg%2F11lf2w7q09?hl=es-mx&entry=ttu&g_ep=EgoyMDI2MDUxMC4wIKXMDSoASAFQAw%3D%3D" target="_blank" class="btn-primary">Ver en Google Maps →</a>
+  </div>
+
+  <div class="location-map-wrapper reveal">
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3756.6862847548847!2d-101.6038499!3d19.431756!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842d91dd0433f57f%3A0x11480d584a98360b!2sLobera%20Glamping%20P%C3%A1tzcuaro!5e0!3m2!1ses!2smx!4v1700000000000!5m2!1ses!2smx"
+      width="100%"
+      height="420"
+      style="border:0; display: block;"
+      allowfullscreen=""
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+  </div>
+</section>
+
+<!-- RESERVE CTA -->
+<section id="reserve">
+  <div class="reserve-content reveal">
+    <p class="section-label">¿Listo para escapar?</p>
+    <h2 class="section-title">Reserva tu<br>aventura hoy</h2>
+    <p>Las plazas son limitadas. No dejes pasar la oportunidad de vivir una experiencia única bajo las estrellas de Michoacán. ¡Escríbenos y confirmamos tu fecha!</p>
+    <div class="reserve-actions">
+      <a href="https://wa.me/523541197968?text=Hola,%20me%20interesa%20reservar%20en%20Lobera%20Glamping" class="btn-whatsapp" target="_blank">
+        WhatsApp
+      </a>
+      <a href="#services" class="btn-secondary">
+        Ver servicios →
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-brand">
+    <strong>LOBERA</strong>
+    © 2025 Lobera Glamping · Todos los derechos reservados
+  </div>
+  <div class="footer-links">
+    <a href="#" title="Instagram">📸</a>
+    <a href="#" title="Facebook">📘</a>
+    <a href="https://wa.me/523541197968" target="_blank" title="WhatsApp">💬</a>
+  </div>
+  <div class="footer-location">
+    📍 Pátzcuaro, Michoacán
+  </div>
+</footer>
+
+<script src="main.js"></script>
+
+</body>
+</html>
